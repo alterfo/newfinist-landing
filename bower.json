@@ -1,0 +1,9 @@
+{
+  "name": "newfinist",
+  "version": "0.0.0",
+  "homepage": "http://finist-kazan.ru",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "foundation": "~5.5.2"
+  }
+}
