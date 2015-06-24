@@ -12,6 +12,14 @@
     margin-top: 150px;
 }
 
+.top100 {
+    margin-top: 100px;
+}
+
+.top40 {
+    margin-top: 40px;
+}
+
 h1,
 h2,
 h3 {
@@ -70,7 +78,7 @@ h3 {
 
 .features__feature-title {
     color: #2f3672;
-    font-size: 1.7em;
+    font-size: 1.3rem;
 }
 
 .features__feature-text {
@@ -112,14 +120,65 @@ h3 {
 }
 
 .portfolio {
-    background-color: #2f3672;
+    /*background-color: #2f3672;*/
     max-width: 100% !important;
 }
 
 .portfolio__image-caption {
-    color: #f7c265;
+    color: #2f3672;
     font-size: 1.15em;
     margin-bottom:5px;
     margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion {
+  margin-left: 0;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.accordion .accordion-navigation {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.accordion .accordion-navigation.active {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.accordion .accordion-navigation.active > a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background: transparent;
+  font-size: 2em;
+}
+.accordion .accordion-navigation > a {
+  transition: ease 0.4s all;
+  background: transparent;
+}
+.accordion .accordion-navigation > a:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.accordion .accordion-navigation > .content {
+  display: block;
+  max-height: 0;
+  overflow-y: auto;
+  padding: 0 1rem;
+  transition: ease 0.4s all;
+}
+.accordion .accordion-navigation > .content.active {
+  max-height: 120vh;
+  padding: 1rem;
+  transition: ease 0.4s all;
+  transition-delay: 0.4s;
+  background: transparent;
 }
 
